@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Check Me</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Information About You</h1>
+        </header>
+        <section class="main_information">
+        <button id="upDateButton">Update Information</button>
+            <h2>Device and Browser Information</h2>
+        <div id="deviceInfo">
+            <p><strong>Device Name:</strong> <span id="deviceName">Loading...</span></p>
+            <p><strong>Browser Name:</strong> <span id="browserName">Loading...</span></p>
+            <p><strong>User Agent:</strong> <span id="userAgent">Loading...</span></p>
+        </div>
+        
+        <h2>IP Address</h2>
+        <div id="ipInfo">
+            <p><strong>IPv4:</strong> <span id="ipv4">Loading...</span></p>
+            <p><strong>IPv6:</strong> <span id="ipv6">Loading...</span></p>
+        </div>
+        
+        <h2>Geolocation</h2>
+        <div id="geoLocation">
+            <p><strong>Latitude:</strong> <span id="latitude">Loading...</span></p>
+            <p><strong>Longitude:</strong> <span id="longitude">Loading...</span></p>
+        </div>
+        </section>
+    </main>
+    
+<!-- -------------------------------- -->
+    <script src="scrypt.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>

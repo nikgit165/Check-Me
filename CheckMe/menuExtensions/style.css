@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:bisque;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    transition: all 1.5s ease;
+}
+
+::-webkit-scrollbar-track{
+    background: #503e3e;
+}
+
+::-webkit-scrollbar-thumb{
+    background:bisque;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(209, 186, 158); 
+}
+
+header h1{
+    text-align: left;
+}
+
+section.main_information p.text{
+    font-size: 15px;
+    padding: 1px;
+    user-select: none;
+    /* pointer-events:inherit; */
+}
+
+#upDateButton{
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    border-style: none;
+    background-color:antiquewhite;
+    transition: all 1.5s ease;
+}
+
+#upDateButton:hover{
+    background-color:rgb(250, 201, 137);
+    scroll-behavior: smooth;
+}
